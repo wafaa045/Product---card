@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Product preview card component</title>
+<link rel="stylesheet" href="./index.css">
+ 
+</head>
+<body>
+  <section class="card">
+
+    <div class="img-card"> 
+
+      <picture>
+        <source media="(max-width: 767px)" srcset="./images/image-product-mobile.jpg">
+        <img src="./images/image-product-desktop.jpg" alt="Product Image">
+      </picture>
+    </div>
+    <div class="inf-card">
+      <p class="frist-p"> perfume</p>
+      <h1> 
+        gabrielle essence eau de parfum
+      </h1>
+      <p class="secand-p"> 
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.
+      
+      </p>
+      <div class="price">
+        <span class="new-price">  $149.99</span>
+        <del>  $169.99</del>
+      </div>
+      <button> 
+        <img src="./images/icon-cart.svg" alt="icon-cart">
+        add to cart
+      </button>
+    </div>
+
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/wafaa045" target="_blank">wafaa mahdey</a>.
+  </div>
+</body>
+</html>
